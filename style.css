@@ -1,0 +1,588 @@
+      #cards, #console, #datos, #infos, .hh-title, .title {
+        text-align: center;
+      }
+
+      #datos, #infos, .Lbutton, .hh-title, p.boldy, p.boldy.info, p.boldy.main {
+        font-weight: 700;
+        color: limegreen;
+      }
+
+      .Lbutton, .Lbutton:hover {
+        background: linear-gradient(to bottom, var(--princi) 5%, var(--princi) 100%);
+        background-color: var(--princi);
+        color: var(--secund);
+      }
+
+      .hh-title, .title, footer {
+        font-family: var(--font-princi);
+        color: limegreen;
+      }
+
+      .Lbutton, footer, header {
+        color: var(--secund);
+      }
+
+      :root {
+        color-scheme: dark;
+        --princi: #212121; /* Fondo negro */
+        --secund: limegreen; /* Color de borde y botones */
+        --label: #2b2b35;
+        --font-princi: "Orbitron", sans-serif;
+        --font-secund: "Poppins", sans-serif;
+        --rg1: rgba(93, 255, 98, 0.075);
+        --rg2: rgba(93, 255, 98, 1);
+        --info: #96d3f2;
+      }
+
+      body {
+        margin: 0;
+        background: var(--princi);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      a, p.boldy.info {
+        color: var(--info);
+      }
+
+      #datos, #infos {
+        padding-top: 8px;
+        font-family: var(--font-secund);
+        font-size: 14px;
+      }
+
+      .title {
+        text-shadow: 0 0 20px #fff;
+        font-size: 2rem;
+        margin-top: 25px;
+        margin-bottom: 3px;
+        text-shadow: 0 0 15px var(--secund);
+      }
+
+      .title img {
+        display: inline-block;
+        height: 2.5rem;
+        vertical-align: middle;
+      }
+
+      .hh-title {
+        font-size: 1rem;
+        margin-bottom: 5px;
+      }
+
+      .Lbutton, .textarea {
+        font-family: var(--font-secund);
+      }
+
+      hr.separador {
+        border: 1px solid var(--secund);
+      }
+
+      .p {
+        display: block;
+        margin-bottom: 12px;
+      }
+
+      p.boldy.main {
+        font-size: 17px;
+      }
+
+      .eighty {
+        margin-top: 10px;
+        width: 50%;
+      }
+
+      #cards {
+        color: #ebebeb;
+      }
+
+      .Lbutton {
+        background: linear-gradient(to bottom, var(--princi) 5%, var(--princi) 100%);
+        background-color: var(--princi);
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        border-radius: 6px;
+        display: inline-block;
+        cursor: pointer;
+        font-size: 1px;
+        padding: 5px 30px;
+        text-decoration: none;
+        border: 1px solid var(--secund);
+        -webkit-box-shadow: inset 0 1px 1px var(--rg1), 0 0 15px var(--rg2);
+        box-shadow: inset 0 1px 1px var(--rg1), 0 0 15px var(--rg2);
+      }
+
+      .textarea, footer {
+        text-align: center;
+        font-size: 13px;
+      }
+
+      .Lbutton:hover {
+        background: linear-gradient(to bottom, var(--princi) 5%, var(--princi) 100%);
+        background-color: var(--princi);
+      }
+
+      .Lbutton:active {
+        position: relative;
+        top: 1px;
+      }
+
+      .Lbutton.active, .Lbutton:active, .Lbutton:focus, .Lbutton:hover, .open > .dropdown-toggle.Lbutton {
+        color: var(--secund);
+        border-color: var(--secund);
+        -webkit-box-shadow: inset 0 1px 1px var(--rg1), 0 0 20px var(--rg2);
+        box-shadow: inset 0 1px 1px var(--rg1), 0 0 20px var(--rg2);
+      }
+
+      .textarea {
+        background-color: var(--label);
+        border-bottom: 2px solid #2a203f;
+        border-color: var(--secund);
+        -webkit-box-shadow: inset 0 1px 1px var(--rg1), 0 0 20px var(--rg2);
+        box-shadow: inset 0 1px 1px var(--rg1), 0 0 20px var(--rg2);
+        width: 80%;
+        color: #ebebeb;
+        margin-bottom: 10px;
+        outline: 0;
+        font-weight: 500;
+        overflow-x: hidden;
+        overflow-y: scroll;
+         border-radius: 10px;
+      }
+
+      .textarea::-webkit-scrollbar {
+        width: 5px;
+      }
+
+      .textarea::-webkit-scrollbar-thumb {
+        background: var(--secund);
+      }
+
+      @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+        .eighty {
+          margin-top: 5px;
+          width: 80%;
+        }
+        .textarea {
+          font-size: 13px;
+
+        }
+        .Lbutton {
+          font-size: 10px;
+          font-weight: 700;
+          padding: 8px 17px;
+        }
+      }
+
+      @media only screen and (min-width: 321px) {
+        .eighty {
+          margin-top: 5px;
+          width: 80%;
+        }
+        .textarea {
+          font-size: 13px;
+        }
+        .Lbutton {
+          font-size: 10px;
+          font-weight: 700;
+          padding: 8px 17px;
+        }
+      }
+
+      @media only screen and (max-width: 320px) {
+        .Lbutton, .textarea {
+          font-size: 13px;
+        }
+        .eighty {
+          margin-top: 5px;
+          width: 80%;
+        }
+        .Lbutton {
+          font-weight: 700;
+          padding: 8px 17px;
+        }
+      }
+
+      @media only screen and (min-width: 481px) {
+        .Lbutton, .textarea {
+          font-size: 16px;
+        }
+        .eighty {
+          margin-top: 5px;
+          width: 80%;
+        }
+        .Lbutton {
+          font-weight: 700;
+          padding: 8px 20px;
+        }
+      }
+
+      @media only screen and (max-width: 480px) {
+        .Lbutton, .textarea {
+          font-size: 13px;
+        }
+        .eighty {
+          margin-top: 5px;
+          width: 80%;
+        }
+        .Lbutton {
+          font-weight: 700;
+          padding: 8px 17px;
+        }
+      }
+
+      @media only screen and (min-device-width: 480px) and (max-device-width: 767px) {
+        .Lbutton, .textarea {
+          font-size: 16px;
+        }
+        .eighty {
+          margin-top: 5px;
+          width: 80%;
+        }
+        .Lbutton {
+          font-weight: 700;
+          padding: 8px 20px;
+        }
+      }
+
+      @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+        .card-group {
+          flex-direction: row;
+          text-align: center;
+        }
+        .eighty {
+          margin-top: 10px;
+          width: 50%;
+        }
+      }
+
+      @media only screen and (min-width: 1224px) {
+        .card-group {
+          flex-direction: row;
+          text-align: center;
+        }
+        .eighty {
+          margin-top: 10px;
+          width: 50%;
+        }
+      }
+
+      @media only screen and (min-width: 1824px) {
+        .card-group {
+          flex-direction: row;
+          text-align: center;
+        }
+        .eighty {
+          margin-top: 10px;
+          width: 50%;
+        }
+      }
+
+       .rectangulo {
+                  width: 400px;
+                  height: 50px;
+                  background-color: transparent;
+                  border: 2px solid limegreen; 
+                  box-shadow: 0px 0px 10px rgba(93, 255, 98, 1); 
+                  margin: 0 auto; 
+                  border-radius: 10px;
+                  overflow-y: visible; 
+                  white-space: pre-wrap;
+              }
+
+
+
+.ove {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 999;
+}
+
+.ove-content {
+   background-color: rgba(0, 0, 0, 0.9); /* Cambiar el fondo a un negro más oscuro */
+   /* Otros estilos para el contenido del overlay */
+}
+
+/* Estilos para la animación de cambio de color */
+.animacion {
+   font-family: verdana;
+   font-size: 50px;
+   display: inline-block;
+   overflow: hidden;
+}
+
+.letra {
+   display: inline-block;
+   animation: cambio-color 2s infinite linear;
+}
+
+@keyframes cambio-color {
+   0% { color: #00ff00; } /* Cambiar el color inicial a verde lima */
+   16.67% { color: #33ff00; } /* Cambiar el color intermedio a otro tono de verde */
+   33.33% { color: #66ff00; } /* Cambiar el color intermedio a otro tono de verde */
+   50% { color: #99ff00; } /* Cambiar el color intermedio a otro tono de verde */
+   66.67% { color: #ccff00; } /* Cambiar el color intermedio a otro tono de verde */
+   83.33% { color: #ffff00; } /* Cambiar el color intermedio a amarillo */
+   100% { color: #00ff00; } /* Volver al color verde lima al final */
+}
+
+/* Estilos para la barra de carga */
+.loading-bar {
+   width: 100%;
+   height: 20px;
+   background-color: #000; /* Cambiar el color de fondo de la barra de carga a negro */
+   position: relative;
+}
+
+.progress {
+   width: 0;
+   height: 100%;
+   background-color: #00ff00; /* Cambiar el color de la barra de progreso a verde lima */
+   position: absolute;
+   animation: fill-progress 3s infinite;
+}
+
+@keyframes fill-progress {
+   0% { width: 0; }
+   16.67% { width: 16.67%; background-color: #33ff00; } /* Cambiar el color intermedio a otro tono de verde */
+   33.33% { width: 33.33%; background-color: #66ff00; } /* Cambiar el color intermedio a otro tono de verde */
+   50% { width: 50%; background-color: #99ff00; } /* Cambiar el color intermedio a otro tono de verde */
+   66.67% { width: 66.67%; background-color: #ccff00; } /* Cambiar el color intermedio a otro tono de verde */
+   83.33% { width: 83.33%; background-color: #ffff00; } /* Cambiar el color intermedio a amarillo */
+   100% { width: 100%; background-color: #00ff00; } /* Volver al color verde lima al final */
+}
+
+
+
+.con {
+    width: 280px;
+    height: 50px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+
+.square {
+  width: 40px;
+  height: 45px;
+  background-color: transparent;
+  border: 2px solid green;
+  border-radius: 20%;
+  position: relative;
+  cursor: pointer; /* Añadido para indicar que es clickeable */
+}
+
+.checkmark {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  width: 24px;
+  height: 24px;
+  stroke-width: 2;
+  stroke: green;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+
+@keyframes checkmarkAnimation {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+  .text {
+    text-align: center;
+  }
+  .cont2 {
+  display: none;
+  width: 140px;
+  height: 35px;
+  background-color: transparent;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 999;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+ .rounded-rectangle {
+    width: 250px;
+    height: 50px;
+    left: 25px; /* Mueve el rectángulo hacia la derecha */
+    top: 20px;
+    background-color: transparent; /* Fondo transparente */
+    border: 2px solid #ccc; /* Borde gris */
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Sombra con desplazamiento */
+    position: relative; /* Agregamos posición relativa para utilizar left */
+  }
+
+.overlay1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+
+.overlay1-content {
+    text-align: center;
+    background-color: black;
+    padding: 250px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    border: 15px solid #0FFF00;
+}
+/* Centrar los elementos dentro del overlay */
+.overlay1-content .centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* Espaciado entre elementos */
+}
+
+  
+input {
+    width: 110%;
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+ .container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 300px;
+}
+
+.profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: auto; /* Agregar esta línea */
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Contenido del menú desplegable */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #212121; /* Cambiar este color al que prefieras */
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #39C117; /* Cambiar el color del texto */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Mostrar el menú desplegable al pasar el mouse */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+    
+    
+    
+    
+    
+
+.dropbtn2 {
+  background-color: transparent;
+  color: #00ff00; /* Color de texto verde fosforescente */
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #333;
+   color: #00ff00; /* Color de texto verde fosforescente */
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content2 a {
+  color: #00ff00;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content2 a:hover {
+  background-color: #00ff00; /* Color de fondo verde fosforescente al resaltar */
+  color: white; /* Color de texto blanco al resaltar */
+}
+
+.dropdown:hover .dropdown-content2 {
+  display: block;
+}
+
+
+.boton-donacion {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Color verde */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.boton-donacion:hover {
+  background-color: #45a049; /* Color verde más oscuro al pasar el mouse */
+}
+
