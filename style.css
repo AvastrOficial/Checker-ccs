@@ -528,11 +528,7 @@ input {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
-    
-    
-    
-    
+ 
     
 
 .dropbtn2 {
@@ -586,3 +582,10 @@ input {
   background-color: #45a049; /* Color verde más oscuro al pasar el mouse */
 }
 
+.github-icon {
+  width: 40px; /* Tamaño del ícono */
+  height: 40px;
+  background-image: url('https://files.catbox.moe/sd5ay7.png'); /* Ruta a tu imagen de GitHub */
+  background-size: cover;
+  /* Otros estilos, si es necesario */
+}
