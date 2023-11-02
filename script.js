@@ -158,3 +158,41 @@ imageInput.addEventListener("change", event => {
         imageInput.style.display = "none";
     }
 });
+
+
+
+ // Función para copiar el texto al portapapeles
+        function copyText() {
+            // Obtener el texto dentro de las secciones
+            var datosText = document.querySelector('#datos').innerText;
+            var infosText = document.querySelector('#infos').innerText;
+
+            // Combinar los textos
+            var text = datosText + " " + infosText;
+
+            // Crear un elemento de área de texto temporal para copiar el texto
+            var tempTextArea = document.createElement('textarea');
+            tempTextArea.value = text;
+            document.body.appendChild(tempTextArea);
+
+            // Seleccionar el texto dentro del elemento de área de texto
+            tempTextArea.select();
+
+            // Copiar el texto al portapapeles
+            document.execCommand('copy');
+
+            // Eliminar el elemento de área de texto temporal
+            document.body.removeChild(tempTextArea);
+
+            // Mostrar una alerta o mensaje indicando que el texto se ha copiado
+            showAlert("Texto copiado al portapapeles!");
+        }
+
+        // Agregar evento de clic al botón "Copiar Texto"
+        var copyButton = document.getElementById('copyButton');
+        copyButton.addEventListener('click', copyText);
+
+        // Función para mostrar una alerta
+        function showAlert(message) {
+            alert(message);
+        }
