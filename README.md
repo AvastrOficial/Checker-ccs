@@ -19,4 +19,5 @@ agregamos un boton para poder copear las tarjetas validadas
 
 Recuerden que este texto se actualizara con los repositorios 
 
-![image](https://github.com/AvastrOficial/Cheker-css/assets/91764815/36f94ad6-9af9-4375-8eab-8356a70f58dc)
+![image](https://github.com/AvastrOficial/Checker-ccs/assets/91764815/ef45df8b-b146-47de-b4fd-0c3a2380a590)
+
