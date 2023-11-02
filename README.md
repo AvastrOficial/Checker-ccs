@@ -10,6 +10,13 @@ Pero eso no es todo. También puedes entrar como el alma de la fiesta, un "invit
 
 Así que, bienvenido a nuestro parque de diversiones de tarjetas de crédito. ¡Aquí es donde la diversión nunca termina, y todos son invitados a bailar en la pista de la validación de tarjetas! 
 
+vercion : 1.0.4
 https://appbsz.crearforo.net/h47-bsz-cheker
+
+informacion de la actualizacion : 
+agregamos una funcion para que no puedan examinar el codigo dentro del dominio 
+agregamos un boton para poder copear las tarjetas validadas 
+
+Recuerden que este texto se actualizara con los repositorios 
 
 ![image](https://github.com/AvastrOficial/Cheker-css/assets/91764815/36f94ad6-9af9-4375-8eab-8356a70f58dc)
