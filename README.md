@@ -1,4 +1,4 @@
-# Checker - ccs / Validor de tarjetas de credito / BSZ
+# Checker - cc / Validor de tarjetas de credito / BSZ
 
 ¡Bienvenido a nuestra página de fiesta de tarjetas de crédito! Este lugar ha sido creado para que seas el rey o la reina del baile de las tarjetas. Puedes darle un vistazo y darle su merecido al fabuloso mundo de las tarjetas de crédito. ¡Y no es broma!
 
