@@ -1,4 +1,5 @@
 # Checker - cc / Validor de tarjetas de credito / BSZ
+Cuando este activo para reglarlo pondre avisarlos
 
 ![image](https://github.com/AvastrOficial/Checker-ccs/assets/91764815/f44d48df-d053-493a-b384-c8a5775790e1)
 
