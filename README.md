@@ -3,6 +3,9 @@ Cuando este activo para reglarlo pondre avisarlos
 
 ![image](https://github.com/AvastrOficial/Checker-ccs/assets/91764815/f44d48df-d053-493a-b384-c8a5775790e1)
 
+# Documentacion del creador de la api :
+https://github.com/yaelsito/YaelChecker
+
 ¡Bienvenido a nuestra página de fiesta de tarjetas de crédito! Este lugar ha sido creado para que seas el rey o la reina del baile de las tarjetas. Puedes darle un vistazo y darle su merecido al fabuloso mundo de las tarjetas de crédito. ¡Y no es broma!
 
 ¿Quieres validar tarjetas de crédito? ¡Estás en el lugar correcto! Puedes ser el capo de hasta 20 tarjetas por cada "chequeador" (¡ni siquiera sabemos si eso es una palabra real, pero nos encanta!). Y, atención, ¡puedes validar más de 5 veces al día! ¡Es como tener una fiesta de tarjetas de crédito sin fin!
