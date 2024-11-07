@@ -1,10 +1,12 @@
 # Checker - cc / Validor de tarjetas de credito / BSZ
-Cuando este activo para reglarlo pondre avisarlos
-
-![image](https://github.com/AvastrOficial/Checker-ccs/assets/91764815/f44d48df-d053-493a-b384-c8a5775790e1)
+# Se creo un parecida con una api free :
+https://github.com/AvastrOficial/Checker-CC
 
 # Documentacion del creador de la api :
 https://github.com/yaelsito/YaelChecker
+Cuando este activo para reglarlo pondre avisarlos
+
+![image](https://github.com/AvastrOficial/Checker-ccs/assets/91764815/f44d48df-d053-493a-b384-c8a5775790e1)
 
 ¡Bienvenido a nuestra página de fiesta de tarjetas de crédito! Este lugar ha sido creado para que seas el rey o la reina del baile de las tarjetas. Puedes darle un vistazo y darle su merecido al fabuloso mundo de las tarjetas de crédito. ¡Y no es broma!
 
